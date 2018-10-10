@@ -17,7 +17,7 @@ source:
   sha256: 9294d9a3b2b680bb6fac17000bfc97453d77c87ef68cfd609b4c4eb6d11d04d1
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win32]
 
 
@@ -50,4 +50,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - dpryan79
     - croth1
