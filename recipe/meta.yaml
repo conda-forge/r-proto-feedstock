@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.0.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -18,7 +18,7 @@ source:
 
 build:
   noarch: generic
-  number: 2002
+  number: 2003
 
 
   rpaths:
@@ -41,13 +41,14 @@ test:
 
 about:
   home: https://github.com/hadley/proto
-  license: GPL-2
-  summary: An object oriented system using object-based, also called prototype-based, rather
-    than class-based object oriented ideas.
+  license: GPL-2.0-only
+  summary: An object oriented system using object-based, also called prototype-based, rather than class-based object oriented ideas.
   license_family: GPL2
 
 
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 extra:
   recipe-maintainers:
     - conda-forge/r
