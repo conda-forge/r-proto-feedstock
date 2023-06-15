@@ -1,11 +1,11 @@
-About r-proto
-=============
+About r-proto-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-proto-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hadley/proto
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-proto-feedstock/blob/main/LICENSE.txt)
 
 Summary: An object oriented system using object-based, also called prototype-based, rather than class-based object oriented ideas.
 
